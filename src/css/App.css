@@ -1,0 +1,38 @@
+ 
+  .page1{
+    background-color: #ffffff;   
+    opacity: 0.8;
+    
+  }
+  .header1{
+    color: blue;
+    font-weight: 200;    
+  }
+  .welcom-info{
+    position: absolute; 
+    top: 0px; 
+    height: 100vh;    
+    width: 100vw;
+    background-color: rgb(219, 234, 247);   
+    z-index: -5; 
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .Picindex{
+      display: flex;
+      position: absolute;
+      bottom: 3%;
+      width: 200px;
+    }    
+    .welcom-info{      
+      height: 100%;
+      overflow: hidden; 
+      position: absolute;   
+      top: 0px;
+      width: 100%;
+      z-index: -1;
+    }
+
+
+  }
+  

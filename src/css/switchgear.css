@@ -1,0 +1,52 @@
+.selectswitchgear{
+    width: 100%;
+    
+}
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.newline{
+    border: solid;
+    width: 75%;    
+}
+.listtest{
+    display: flex;
+    justify-content: center;
+}
+
+/* .select{
+    width: 150px;
+} */
+
+.submenuselect{      
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;  
+}
+.mainmenu{
+    display: flex;
+    justify-content: end;
+}
+.submenuselect:hover{
+    background-color: white;
+    color: black;
+}
+.mediamainmenu{
+    display: none;
+}
+.width_max{
+    width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+    .mediamainmenu{
+        display: flex;
+        justify-content: center;       
+        
+    }
+    .mainmenu{
+        display: none;
+    }
+}

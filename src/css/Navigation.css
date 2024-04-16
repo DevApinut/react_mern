@@ -1,0 +1,19 @@
+.click{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(255, 255, 255);
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(122, 109, 236);
+}
+.navbar-band{
+    width:100%;
+    height: 4rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    z-index: 500;
+}

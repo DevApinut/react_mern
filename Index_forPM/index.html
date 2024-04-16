@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="pt-4"></div>
+    <div class="container">
+        <div class="form-group">
+            <h2 class="text-center">Test Form</h2>
+        </div>
+        <form method="post" autocomplete="off" name="hello-sheet"
+            class="d-flex justify-content-center flex-column align-items-center">
+            <div class="d-flex justify-content-center input-group row align-items-center">
+                <div class="mx-2 col-lg-2 col-md-5 col-sm-5 my-1">
+                    <div class="d-flex justify-content-center input-group">
+                        <span class="input-group-text" id="basic-addon1">ผู้ทดสอบ</span>
+                        <input type="text" name="Sender" required class="form-control">
+                    </div>
+                </div>
+                <div class="mx-2 col-lg-2 col-md-5 col-sm-5 my-1">
+                    <div class="d-flex justify-content-center input-group">
+                        <span class="input-group-text" id="basic-addon1">ปีทดสอบ</span>
+                        <input type="text" id="datePicker" class="form-control">
+                    </div>
+                </div>
+                <div class="mx-2 col-lg-2 col-md-5 col-sm-5 my-1">
+                    <div class="d-flex justify-content-center input-group">
+                        <span class="input-group-text" id="basic-addon1">สถานี&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <select name="Substation" id="" class="form-control">
+                            <option value="โพธาราม1">โพธาราม1</option>
+                            <option value="โพธาราม2">โพธาราม2</option>
+                            <option value="ดำเนินสะดวก">ดำเนินสะดวก</option>
+                            <option value="สมุทรสงคราม (แม่กลอง)">สมุทรสงคราม (แม่กลอง)</option>
+                            <option value="จอมบึง">จอมบึง</option>
+                            <option value="ราชบุรี2  (ลานไก)">ราชบุรี2 (ลานไก)</option>
+                            <option value="ราชบุรี1">ราชบุรี1</option>
+                            <option value="ราชบุรี2">ราชบุรี2</option>
+                            <option value="ราชบุรี3">ราชบุรี3</option>
+                            <option value="ราชบุรีนิคม">ราชบุรีนิคม</option>
+                            <option value="ปากท่อ">ปากท่อ</option>
+                            <option value="เขาย้อย1">เขาย้อย1</option>
+                            <option value="เขาย้อย2">เขาย้อย2</option>
+                            <option value="เพชรบุรี1">เพชรบุรี1</option>
+                            <option value="เพชรบุรี2">เพชรบุรี2</option>
+                            <option value="ท่ายาง">ท่ายาง</option>
+                            <option value="ชะอำชั่วคราว">ชะอำชั่วคราว</option>
+                            <option value="ชะอำ1">ชะอำ1</option>
+                            <option value="ชะอำ2">ชะอำ2</option>
+                            <option value="ชะอำ3">ชะอำ3</option>
+                            <option value="หัวหิน2">หัวหิน2</option>
+                            <option value="หัวหิน3">หัวหิน3</option>
+                            <option value="หิวหิน4">หัวหิน4</option>
+                            <option value="ปรานบุรี">ปรานบุรี</option>
+                            <option value="กุยบุรี">กุยบุรี</option>
+                            <option value="ประจวบคีรีขันธ์">ประจวบคีรีขันธ์</option>
+                            <option value="บางสะพาน1">บางสะพาน1</option>
+                            <option value="บางสะพาน2">บางสะพาน2</option>
+                            <option value="ท่าแซะ">ท่าแซะ</option>
+                            <option value="ปะทิว">ปะทิว</option>
+                            <option value="ชุมพร1">ชุมพร1</option>
+                            <option value="ชุมพร2">ชุมพร2</option>
+                            <option value="หลังสวน">หลังสวน</option>
+                            <option value="ระนอง1">ระนอง1</option>
+                            <option value="ระนอง2">ระนอง2</option>
+                            <option value="สวนผึ้ง">สวนผึ้ง</option>
+                            <option value="แก่งกระจาน">แก่งกระจาน</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mx-2 col-lg-2 col-md-5 my-1">
+                    <div class="d-flex justify-content-center input-group">
+                        <span class="input-group-text" id="">Feeder&nbsp;&nbsp;</span>
+                        <select name="Feeder" id="Feeder1" class="form-control">
+                            <option value="Feeder1">Feeder1</option>
+                            <option value="Feeder2">Feeder2</option>
+                            <option value="Feeder3">Feeder3</option>
+                            <option value="Feeder4">Feeder4</option>
+                            <option value="Feeder5">Feeder5</option>
+                            <option value="Feeder6">Feeder6</option>
+                            <option value="Feeder7">Feeder7</option>
+                            <option value="Feeder8">Feeder8</option>
+                            <option value="Feeder9">Feeder9</option>
+                            <option value="Feeder10">Feeder10</option>
+                            <option value="Feeder11">Feeder11</option>
+                            <option value="Feeder12">Feeder12</option>
+                            <option value="Cap1">Cap1</option>
+                            <option value="Cap2">Cap2</option>
+                            <option value="IN1">IN1</option>
+                            <option value="IN2">IN2</option>
+                            <option value="Tie">Tie</option>
+                            <option value="Tie2">Tie2</option>
+                            <option value="TVS1">TVS1</option>
+                            <option value="TVS2">TVS2</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="d-flex justify-content-center mt-3">
+                <div class="mx-2">
+                    <div>
+                        <div class="btn btn-danger" id="contact">
+                            <h3>Contact</h3>
+                        </div>
+
+                        <div class="input-group my-1">
+                            <span class="input-group-text" id="A_Contact">A</span>
+                            <input type="text" class="form-control" placeholder="PhaseA" name="PhaseA_contact"
+                                id="PhaseA_contact">
+                        </div>
+                        <div class="input-group my-1">
+                            <span class="input-group-text" id="B_Contact">B</span>
+                            <input type="text" class="form-control" placeholder="PhaseB" name="PhaseB_contact"
+                                id="PhaseB_contact">
+                        </div>
+                        <div class="input-group my-1">
+                            <span class="input-group-text" id="C_Contact">C</span>
+                            <input type="text" class="form-control" placeholder="PhaseC" name="PhaseC_contact"
+                                id="PhaseC_contact">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="btn btn-danger" id="vaccuum">
+                            <h3>VACCUUM</h3>
+                        </div>
+
+                        <div class="input-group my-1">
+                            <span class="input-group-text" id="A_Vaccuum">A</span>
+                            <input type="text" class="form-control" placeholder="PhaseA" name="PhaseA" id="PhaseA">
+                        </div>
+                        <div class="input-group my-1">
+                            <span class="input-group-text" id="B_Vaccuum">B</span>
+                            <input type="text" class="form-control" placeholder="PhaseB" name="PhaseB" id="PhaseB">
+                        </div>
+                        <div class="input-group my-1">
+                            <span class="input-group-text" id="C_Vaccuum">C</span>
+                            <input type="text" class="form-control" placeholder="PhaseC" name="PhaseC" id="PhaseC">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mx-2">
+                    <div class="btn btn-danger" id="insulation">
+                        <h3>Insulation</h3>
+                    </div>
+                    <div class="input-group my-2">
+                        <span class="input-group-text" id="AG">A-G</span>
+                        <input type="text" class="form-control" placeholder="PhaseAG" name="PhaseAG" id="PhaseAG">
+                    </div>
+                    <div class="input-group my-2">
+                        <span class="input-group-text" id="BG">B-G</span>
+                        <input type="text" class="form-control" placeholder="PhaseBG" name="PhaseBG" id="PhaseBG">
+                    </div>
+                    <div class="input-group my-2">
+                        <span class="input-group-text" id="CG">C-G</span>
+                        <input type="text" class="form-control" placeholder="PhaseCG" name="PhaseCG" id="PhaseCG">
+                    </div>
+                    <div class="input-group my-2">
+                        <span class="input-group-text" id="AB">A-B</span>
+                        <input type="text" class="form-control" placeholder="PhaseAB" name="PhaseAB" id="PhaseAB">
+                    </div>
+                    <div class="input-group my-2">
+                        <span class="input-group-text" id="BC">B-C</span>
+                        <input type="text" class="form-control" placeholder="PhaseBC" name="PhaseBC" id="PhaseBC">
+                    </div>
+                    <div class="input-group my-2">
+                        <span class="input-group-text" id="CA">C-A</span>
+                        <input type="text" class="form-control" placeholder="PhaseCA" name="PhaseCA" id="PhaseCA">
+                    </div>
+                    <div class="input-group my-2">
+                        <span class="input-group-text" >CN</span>
+                        <input type="text" class="form-control"  name="Counter"
+                            id="Counter">
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="submit" name="submit" value="Send message" class="btn btn-success">บันทึก</button>
+        </form>
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyAhCnvydI4MjMBA3tSwLQnlf8m9VQv5jWg-RiCwHlVykKLxTXAb-GQc-6vjUJJtIFI/exec'
+        const form = document.forms['hello-sheet']
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("บันทึกข้อมูลเรียบร้อยแล้ว.."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            let now = new Date();
+            let today = now.getDate() + '/' + (now.getMonth() + 1) + '/' + now.getFullYear();
+            $('#datePicker').val(today);
+        });
+        $(document).ready(function () {
+            $("#AG").click(function () {
+                $('#PhaseAG').val(">10T");
+            });
+        });
+        $(document).ready(function () {
+            $("#BG").click(function () {
+                $('#PhaseBG').val(">10T");
+            });
+        });
+        $(document).ready(function () {
+            $("#CG").click(function () {
+                $('#PhaseCG').val(">10T");
+            });
+        });
+        $(document).ready(function () {
+            $("#AB").click(function () {
+                $('#PhaseAB').val(">10T");
+            });
+        });
+        $(document).ready(function () {
+            $("#BC").click(function () {
+                $('#PhaseBC').val(">10T");
+            });
+        });
+        $(document).ready(function () {
+            $("#CA").click(function () {
+                $('#PhaseCA').val(">10T");
+            });
+        });        
+        $(document).ready(function () {
+            $("#Feeder1").change(function () {
+                $('#PhaseA_contact').val("");
+                $('#PhaseB_contact').val("");
+                $('#PhaseC_contact').val("");
+                $('#PhaseA').val("");
+                $('#PhaseB').val("");
+                $('#PhaseC').val("");
+                $('#PhaseAG').val("");
+                $('#PhaseBG').val("");
+                $('#PhaseCG').val("");
+                $('#PhaseAB').val("");
+                $('#PhaseBC').val("");
+                $('#PhaseCA').val("");
+        });
+        });
+        
+
+
+    </script>
+</body>
+<br>
+<br>
+<br>
+
+</html>

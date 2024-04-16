@@ -1,0 +1,38 @@
+.normal{
+    position: relative;
+    width: 85vw;
+    height: 75vh;
+    background-color: rgb(172, 255, 172);
+    border-radius: 3rem;
+    overflow: scroll;
+}
+.abnormal{
+    position: relative;
+    width:25vw;
+    height: 500px;
+    background-color: rgb(253, 162, 162);
+    border-radius: 3rem;
+}
+.header{
+    position: relative;
+    top: 0;        
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+@media only screen and (max-width: 1200px) {    
+    .mainmenu{
+        display: none;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .subcontainer{
+        margin-bottom: 1rem;      
+        
+    }
+    .mainmenu{
+        display: none;
+    }
+}
